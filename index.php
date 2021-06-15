@@ -9,7 +9,9 @@
 </head>
 
 <body>
-	
+	<?php
+	include("grow.php");
+	?>
 	<p>We are hiring Growtopia moderators!<br>Only <span style="color: yellow">3</span> applications left!</p>
 	
 	<div class="container">
