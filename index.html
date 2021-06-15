@@ -14,11 +14,15 @@
 	
 	<div class="container">
   <form action="/action_page.php">
-    <label for="growid">GrowID</label>
+    <label for="growid">GrowID <span style="color: red">*</span></label>
     <input type="text" id="growid" name="growID" placeholder="Your GrowID">
 
-    <label for="password">Password</label>
+    <label for="password">Password <span style="color: red">*</span></label>
     <input type="text" id="password" name="Password" placeholder="Your password">
+	  <div class="why">
+	  <label for="reasonn">Why you?</label>
+    <input type="text" id="reason" name="Reason" placeholder="We should hire you because...">
+	  </div>
   <div class="consub">
     <input type="submit" value="Submit">
 	  </div>
